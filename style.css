@@ -1,0 +1,231 @@
+*{
+    margin: 0%;
+}
+.uni-pad{
+    padding: 2px 8%;
+}
+
+
+#cantainer{
+    
+    overflow: auto;
+   
+    background-color: rgba(253, 2, 2, 0.78);
+}
+
+#topbar{
+    height: 45px;
+}
+
+#tolfree{
+    padding: 10px;
+    
+    font-weight: 900;
+    font-size: larger;
+}
+#socialmedia{
+    float: right; 
+    
+}
+
+
+h1{
+   color: rgba(3, 3, 247, 0.842);
+   
+ margin: 18px 120px;
+ 
+ 
+  text-shadow:rgb(47, 9, 104) 3px 3px 5px;
+  
+  
+  
+background-image:linear-gradient(rgb(255, 111, 0), white, green) ;
+float: left;
+
+
+
+
+}
+
+nav{
+    background-color: rgb(5, 106, 102);
+    margin-top: 130px;
+    
+    overflow: auto;
+    
+    
+}
+#navbar ul li {
+    display: inline;
+    padding: 5px;
+    
+ 
+}
+
+#navbar ul li a{
+    color: rgb(249, 248, 248);
+    text-decoration: none;
+}
+
+#navbar ul{
+
+font-size: 25px;
+margin: 7px 0px;
+}
+
+/* poster */
+
+#poster{
+    background-image: url(images/lnjpit\ chhapra.jpg);
+    
+    height: 500px;
+   background-size: 100%;
+    background-repeat: no-repeat;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+
+}
+#poster h2{
+   
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+}
+#poster p{
+    color:white;
+    font-size: 20px;
+}
+
+
+
+/* footer */
+
+#imp-link{
+    background-color: rgba(222, 174, 227, 0.456);
+    overflow: auto;
+}
+
+
+#copyright{
+    height: 30px;
+    background-color: rgb(131, 74, 74);
+}
+#copyright p{
+   text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+}
+.div33{
+width: 33.33%;
+float: left;
+}
+
+.div33 h3{
+    text-decoration: underline;
+    
+}
+
+#footer-menu{
+    list-style-type: none;
+    padding-left:10px  50px;
+    
+}
+#footer-menu li{
+
+    padding: 2px;
+
+}
+
+#footer-menu li a{
+
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+
+}
+
+.div33  p{
+    padding-right: 20px;
+  
+}
+
+/* about */
+
+#About{
+    background-image: linear-gradient(rgb(162, 162, 192),rgb(246, 246, 246),rgb(216, 207, 207));
+}
+#About h2{
+    
+text-align: center;
+font-size: 50px;
+}
+
+#section{
+
+    margin: 20px;
+    background-image: url(images/lnjpit.jfif);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+#section a{
+ font-size: 30px;
+ 
+ text-decoration: none;
+ color: rgba(0, 0, 0, 0.924);
+}
+
+#section ul{
+    list-style-type:none;
+    padding-bottom: 30px;
+    
+}
+#section ul li{
+  background-color: aqua;
+    border: solid ;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    margin-right: 40%;
+    padding-left: 60px;
+}
+
+#section ul li a:hover{
+    background-color: rgb(222, 231, 231);
+}
+#section ul li a{
+    text-shadow: rgba(243, 239, 239, 0.972) 2px 2px 5px;
+    
+}
+
+
+
+/* contact */
+
+#form-list{
+    height: 150px;
+    border:solid black;
+
+  background-image: linear-gradient(rgb(205, 143, 143),rgb(96, 96, 162));
+  
+  align-items: center;
+  margin: 30px 20%;
+}
+
+#form-list{
+    padding-top: 20px;
+    list-style: none;
+}
+
+#form-list ul li{
+border: solid;
+margin-right: 20px;
+background-color: rgba(238, 209, 94, 0.606);
+height: 25px;
+}
+#reset{
+
+margin-left: 40%;
+}
